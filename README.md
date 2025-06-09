@@ -79,8 +79,12 @@ brain_tumor_dataset/
 ## 📈 Hasil Training
 
 ### Grafik Akurasi:
+![Accuracy Plot](images/accuracy-plot.png)
+
 
 ### Grafik Loss:
+![Loss Plot](images/loss-plot.png)
+
 
 * Akurasi validasi akhir: **\~84%**
 * Model menunjukkan generalisasi yang baik tanpa overfitting yang signifikan.
@@ -90,8 +94,12 @@ brain_tumor_dataset/
 ## 📊 Evaluasi Model
 
 ### Confusion Matrix:
+![Confusion Matrix](images/confusion-matrix.png)
+
 
 ### Classification Report:
+![Classification Report](images/classification-report.png)
+
 
 * **Precision**: 0.85 - 0.89
 * **Recall**: 0.84 - 0.89
@@ -163,6 +171,7 @@ def load_and_predict(img_path, model_path='final-brain-tumor-model.h5'):
 * Digunakan untuk menguji model dengan **gambar baru dari luar dataset**.
 
 ### Contoh Output:
+![Contoh Output](images/contoh-data-train-batch.png)
 
 * Model berhasil memprediksi gambar sebagai **Tumor** dengan confidence \~71%.
 
