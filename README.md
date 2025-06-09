@@ -39,6 +39,8 @@ brain_tumor_dataset/
 
 * Total gambar: \~196 (98 per kelas)
 
+![Dataset Train Batch](images/contoh-data-train-batch.png)
+
 * Augmentasi gambar menggunakan **ImageDataGenerator**:
 
   * Rotasi
@@ -171,7 +173,7 @@ def load_and_predict(img_path, model_path='final-brain-tumor-model.h5'):
 * Digunakan untuk menguji model dengan **gambar baru dari luar dataset**.
 
 ### Contoh Output:
-![Contoh Output](images/contoh-data-train-batch.png)
+![Contoh Output](images/output.png)
 
 * Model berhasil memprediksi gambar sebagai **Tumor** dengan confidence \~71%.
 
